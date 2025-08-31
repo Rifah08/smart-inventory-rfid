@@ -1,0 +1,19 @@
+Purpose: The main webpage for the inventory dashboard.
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Inventory</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Smart Inventory Dashboard</h1>
+    <div id="alerts"></div>
+    <table id="inventory-table">
+        <thead><tr><th>Name</th><th>RFID Tag</th><th>Qty</th><th>Status</th></tr></thead>
+        <tbody></tbody>
+    </table>
+    <button onclick="simulateScan('remove')">Simulate Scan (Remove Item)</button>
+    <script src="script.js"></script>
+</body>
+</html>
