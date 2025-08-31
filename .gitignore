@@ -1,0 +1,8 @@
+Purpose: Tells Git which files to ignore (like temporary files, databases, etc.).
+
+__pycache__/
+*.pyc
+*.db
+.env
+venv/
+.DS_Store
