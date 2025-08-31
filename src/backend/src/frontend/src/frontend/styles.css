@@ -1,0 +1,7 @@
+Purpose: Makes the dashboard look professional.
+
+body { font-family: Arial; padding: 20px; }
+table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+.low-stock { color: red; font-weight: bold; }
+button { padding: 10px; margin: 10px 0; }
