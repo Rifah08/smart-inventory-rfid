@@ -1,0 +1,4 @@
+Purpose: Lists the Python libraries needed to run the backend.
+
+Flask==2.3.3
+Flask-CORS==4.0.0
